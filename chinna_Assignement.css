@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.heading_section {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+.your {
+    font-size: 22px;
+    font-family: Roboto;
+    color: grey;
+    margin-top: 10px;
+    list-style: none;
+    border: 0px;
+    background-color: transparent;
+}
+
+.all_color {
+    color: red;
+}
+
+.all {
+    font-size: 22px;
+    font-family: Roboto;
+    color: grey;
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.blocked {
+    font-size: 22px;
+    font-family: Roboto;
+    color: grey;
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.filter_cont {
+    text-align: end;
+    margin: 20px;
+}
+
+.hide_filter_cont {
+    display: none;
+    text-align: end;
+    margin: 20px;
+}
+
+.user_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hide_card {
+    display: none;
+}
+
+.user_details {
+    padding: 15px;
+    height: 150px;
+    width: 40vw;
+    border: 2px solid grey;
+}
+
+.name {
+    font-size: 18px;
+    font-family: Roboto;
+    color: black;
+}
+
+.budget {
+    font-size: 18px;
+    font-family: Roboto;
+    color: black;
+}
+
+.owner {
+    font-size: 18px;
+    font-family: Roboto;
+    color: black;
+}
+
+.hide_burner {
+    display: none;
+}
+
+.burner_con {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.div_container {
+    height: 300px;
+    width: 35vw;
+    margin-left: 15px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+}
+
+.card_container {
+    margin: 20px;
+
+}
+
+.card_title {
+    font-size: 22px;
+    font-family: Roboto;
+    color: black;
+}
+
+.card_para {
+    font-size: 16px;
+    font-family: Roboto;
+    color: grey;
+    margin: 0px;
+}
+
+.list_heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 12px;
+    font-family: Roboto;
+    color: grey;
+
+}
+
+.list_heading_amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 10px;
+    font-family: Roboto;
+    margin-left: 20px;
+    color: black;
+}
+
+.list_heading_value {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 12px;
+    font-family: Roboto;
+    color: black;
+    font-weight: bold;
+    list-style: none;
+    margin: 0px;
+}
+
+.list_value {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.list_heading_spent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-family: Roboto;
+    color: black;
+    font-weight: bold;
+}
+
+.list_spent_value {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.button {
+    height: 5px;
+    width: 80%;
+    border-radius: 0.5px;
+    background: linear-gradient(to right, green 50%, #FF033E.50%)
+}
+
+.list_heading_balance {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-family: Roboto;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+}
